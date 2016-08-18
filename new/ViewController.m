@@ -21,9 +21,9 @@
     UIView * vi = [[UIView alloc]initWithFrame:CGRectMake(100, 100, 200, 40)];
     vi.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:vi];
-
+//传入一个数组
     NSArray * array = [[NSArray alloc] initWithObjects:@"吃完了",@"好舒服的样子",@"周末去玩耍",@"下雨了", nil];
-
+//time  为控制移动的时间
     HorseRace * host =[[HorseRace alloc]initWithFrame:CGRectMake(0, 0, 200, 40) AndWithTitle:array AndWithTime:0.3];
     [vi addSubview:host];
     
