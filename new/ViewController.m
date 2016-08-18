@@ -28,11 +28,6 @@
     [vi addSubview:host];
     
 
-/*
-    CountNumber * cn = [[CountNumber alloc]init];
-    int count = [cn addTwoNumbers:10 andWith:20];
-    NSLog(@"count==%d",count);
-    */
 }
 
 - (void)didReceiveMemoryWarning {
